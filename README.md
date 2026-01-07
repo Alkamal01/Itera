@@ -1,10 +1,8 @@
 # Itera: Self-improving Multi-agent Systems via Bootstrapped Reasoning
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)][#license]
-[![Arxiv](https://img.shields.io/badge/arXiv-2502.04780-B31B1B.svg)][#arxiv-paper]
 
 [#license]: https://opensource.org/licenses/MIT
-[#arxiv-paper]: https://arxiv.org/abs/2502.04780
 
 ## Overview
 
