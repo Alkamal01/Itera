@@ -8,9 +8,9 @@
 
 ## Overview
 
-**Itera** (formerly SiriuS) is a self-improving multi-agent framework designed to continuously enhance reasoning capabilities. It achieves this by maintaining an experience library of successful trajectories and bootstrapping from failed ones, effectively allowing agents to learn from their own interactions.
+**Itera** (formerly Itera) is a self-improving multi-agent framework designed to continuously enhance reasoning capabilities. It achieves this by maintaining an experience library of successful trajectories and bootstrapping from failed ones, effectively allowing agents to learn from their own interactions.
 
-This repository implements the framework described in the paper [**SiriuS: Self-improving Multi-agent Systems via Bootstrapped Reasoning**](https://arxiv.org/abs/2502.04780).
+This repository implements the framework described in the paper [**Itera: Self-improving Multi-agent Systems via Bootstrapped Reasoning**](https://arxiv.org/abs/2502.04780).
 
 ## Modules
 
