@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "itera"
+version = "0.1.0"
+description = "Itera: Self-improving Multi-agent Systems via Bootstrapped Reasoning"
+authors = [
+  { name = "Wanjia Zhao", email = "author@example.com" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "torch",
+    "numpy",
+    "tqdm",
+    "openai",
+    "backoff",
+    "langchain",
+    "chromadb",
+    "tiktoken",
+    "transformers",
+    "accelerate",
+    "bitsandbytes",
+    "scipy",
+    "seaborn",
+    "matplotlib",
+    "pandas",
+    "anthropic"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Alkamal01/itera"
+"Paper" = "https://arxiv.org/abs/2502.04780"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["problem_solving*", "actor_critic*", "competitive*", "libs*"]
